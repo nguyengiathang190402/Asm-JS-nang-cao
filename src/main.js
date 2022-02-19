@@ -2,8 +2,8 @@ import Navigo from "navigo";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import AboutPage from "./pages/about";
-import AdminPost from "./pages/admin/posts";
-import AddPost from "./pages/admin/posts/add";
+import AdminPost from "./pages/admin/news";
+import AddPost from "./pages/admin/news/add";
 import HomePage from "./pages/home";
 import NewsDetail from "./pages/newsDetail";
 import ProductsPage from "./pages/products";
@@ -58,6 +58,9 @@ router.on({
   },
   "/admin/news": () => print(AdminPost),
   "/admin/dashboard": () => print(Dashboard),
+  // "/admin/news": () => print(Dashboard),
+  // "/admin/product": () => print(Dashboard),
+
 
   "/admin/news/add": () => print(AddPost),
   "/signup": () => print(Signup),
