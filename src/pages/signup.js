@@ -44,6 +44,7 @@ const Signup = {
                 const { data } = await signup({
                     email: $('#email').value,
                     password: $('#password').value,
+                    role: 1,
                 });
                 toastr.success("Đăng ký thành công")
                 if(data){

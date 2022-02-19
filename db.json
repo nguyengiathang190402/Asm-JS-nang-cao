@@ -194,6 +194,12 @@
       "email": "giaovien@gmail.com",
       "password": "$2a$10$1GQ7e2jekdXVnR0sYNcs.esep5VSdyCmywPJlS.uj0IgTwq2CBW.q",
       "id": 9
+    },
+    {
+      "email": "Giathang123@gmail.com",
+      "password": "$2a$10$jeHMddOuBnVBmMfQtos5G.bH.MSfyeRg7QmQr2lyLuqwNbVa5ntMi",
+      "role": 1,
+      "id": 10
     }
   ],
   "products": [

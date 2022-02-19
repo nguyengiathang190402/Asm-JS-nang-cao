@@ -7,7 +7,7 @@ const Nav = {
             <ul class="flex">
                 <li><a href="/" class="block py-3 px-4 text-white hover:bg-blue-500">Trang chủ</a></li>
                 <li><a href="/about" class="block py-3 px-4 text-white hover:bg-blue-500">Tin tức</a></li>
-                <li><a href="/product" class="block py-3 px-4 text-white hover:bg-blue-500">Sản phẩm</a></li>
+                <li><a href="/products" class="block py-3 px-4 text-white hover:bg-blue-500">Sản phẩm</a></li>
                 <li><a href="/contact" class="block py-3 px-4 text-white hover:bg-blue-500">Liên hệ</a></li>
 
             </ul>
