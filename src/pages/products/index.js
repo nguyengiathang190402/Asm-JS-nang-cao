@@ -1,20 +1,24 @@
 import axios from 'axios';
 import { getAll } from '../../api/products';
 import Header from '../../components/header';
+import Banner from '../../components/banner';
+
 
 const ProductsPage = {
     async render() {
         const { data } = await getAll();
         return /* html */`
-        <div class="max-w-5xl mx-auto"> 
+        <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal"> 
+        <nav id="header" class="w-full z-30 top-0 py-1"> 
             <div id="header">
                 ${Header.render()}
             </div>
             <div class="my-3">
-                <img src="https://picsum.photos/1024/400" />
+                ${Banner.render()}
             </div>
             <div class="news">
-                <h2 class="text-2xl font-semibold my-4">Sản phẩm</h2>
+            <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-2 py-3">
+            <h2 class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl">Sản Phẩm </h2>
                 <div class="grid grid-cols-3 gap-8">
                     ${data.map((post) => `
                         <div class="border p-4">

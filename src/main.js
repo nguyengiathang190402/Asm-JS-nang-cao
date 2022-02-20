@@ -13,6 +13,9 @@ import Signup from "./pages/signup";
 import Dashboard from "./pages/admin/dashboard";
 
 
+
+
+
 const router = new Navigo("/", { linksSelector: "a", hash: true });
 
 const print = async (content, id) => {
