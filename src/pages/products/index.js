@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { getAll } from '../../api/products';
+import { getAll } from '../../api/sanpham';
 import Header from '../../components/header';
 import Banner from '../../components/banner';
 

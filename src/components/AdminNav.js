@@ -1,3 +1,4 @@
+
 const AdminNav = {
     render(){
         return /*html*/ `
@@ -15,7 +16,10 @@ const AdminNav = {
 
               <a href="/admin/news" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Bài viết</a>
 
-              <a href="/admin/product" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Sản Phẩm</a>
+              <a href="/admin/products" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Sản Phẩm</a>
+
+              <a href="/admin/danh-muc" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Danh Mục</a>
+
 
               <a href="/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Về trang chủ</a>
 

@@ -70,13 +70,13 @@ const Signin = {
                     password: $('#password').value,
                     
                 });
-                localStorage.setItem('user', JSON.stringify(data.user));
+               localStorage.setItem('user', JSON.stringify(data.user));
                 toastr.success("Đăng nhập thành công, chuyển trang sau 2s")
                 setTimeout(function(){
-                    if(data.user.id === 1){
+                    if(data.user.id == 1){
                         document.location.href="/admin/dashboard"
                     } else {
-                        document.location.href="/#/"
+                        document.location.href="/#"
                     }
                 },2000)
                 

@@ -1,4 +1,4 @@
-import { get } from "../../api/products";
+import { get } from "../../api/sanpham";
 import { addToCart } from "../../utils/cart";
 import { $ } from "../../utils/selector";
 
